@@ -2,7 +2,7 @@
 <!-- saved from url=(0395)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html?GoogleAccessId=1069728276824-fdhtlb98k1m9qrmdgj4jgc7gjp2l1lsm@developer.gserviceaccount.com&Expires=1428309448&Signature=qUYMR12LB7OXJN6bk0GFjpDrl/iXJlPtas6Dvk7yMPcSRg0woH3P8OqqUjl4fKcStLDhbAhN0l%2BEzHhSBZ8XQjQSJKh/a/31gzqF/FdVgtmIZKK8NG4lZa8zoF9a07RlecGbqFkrllus17HeRYUclir8PEnf/0KIOnvAKl4joHY%3D -->
 
 <html>
-	<head>
+	<head lang = "en">
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=GBK">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,103 +12,105 @@
 		
 		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		
 	</head>
+	
 	<body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<img class="title-logo" src="images/half_self.jpg" class="img-responsive" alt="School logo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="title-logo img-responsive" src="images/half_self.jpg" alt="myPo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase title-name">
+					<h1 class="text-thin title-super">YU SHAN</h1>
+					<h3 class="title-lower">Front-end Web Developer</h3>
+				</div>
 			</div>
-			<div class="col-md-6 text-right text-uppercase">
-				<h1 class="text-thin title-super">YU SHAN</h1>
-				<h3>Front-end Web Developer</h3>
+			<div class="row">
+				<div class="col-md-12">
+					<hr />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="images/main.jpg" class="img-responsive" alt="Responsive image">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="images/recipes.jpg" class="img-responsive featured-work" alt="Responsive image" data-toggle="modal" data-target="#project1">
+					<h3>Recipes</h3>
+					<p><a href="https://github.com/zvdifo/recipes">https://github.com/zvdifo/recipes</a></p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="images/hello-world.jpg" class="img-responsive featured-work" alt="Responsive image" data-toggle="modal" data-target="#project2">
+					<h3>Hello World</h3>
+					<p><a href="https://github.com/zvdifo/intro-pro-helloworld">https://github.com/zvdifo/intro-pro-helloworld</a></p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="images/resume.png" class="img-responsive featured-work" alt="Responsive image" data-toggle="modal" data-target="#project3">
+					<h3>Resume</h3>
+					<p><a href="https://github.com/zvdifo/frontend-nanodegree-resume">https://github.com/zvdifo/frontend-nanodegree-resume</a></p>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<hr />
+			
+		<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">A food recipes</h4>
+			  </div>
+			  <div class="modal-body">
+				<img class="img-responsive" src="images/recipes.jpg" alt="recipes">
+				This repository contains recipes for some foods I like.
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
 			</div>
+		  </div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<img src="images/main.jpg" class="img-responsive" alt="Responsive image">
+
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Hello World</h4>
+			  </div>
+			  <div class="modal-body">
+				<img class="img-responsive" src="images/hello-world.jpg" alt="hello-world">
+				This is my very first webpage!For my Front-End Nanodegree
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
 			</div>
+		  </div>
 		</div>
-		
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-muted">Featured Work</h2>
+
+
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Resume</h4>
+			  </div>
+			  <div class="modal-body">
+				<img class="img-responsive" src="images/resume.png" alt="resume">
+				This was my second project of Udacity,I learned a lot about javascript!
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
 			</div>
+		  </div>
 		</div>
-		<div class="row text-center">
-			<div class="col-md-4">
-				<img src="images/recipes.jpg" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project1">
-				<h3>Recipes</h3>
-				<p><a href="https://github.com/zvdifo/recipes">https://github.com/zvdifo/recipes</a></p>
-			</div>
-			<div class="col-md-4 text-center">
-				<img src="images/hello-world.jpg" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project2">
-				<h3>Hello World</h3>
-				<p><a href="https://github.com/zvdifo/intro-pro-helloworld">https://github.com/zvdifo/intro-pro-helloworld</a></p>
-			</div>
-			<div class="col-md-4 text-center">
-				<img src="images/resume.png" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project3">
-				<h3>Resume</h3>
-				<p><a href="https://github.com/zvdifo/frontend-nanodegree-resume">https://github.com/zvdifo/frontend-nanodegree-resume</a></p>
-			</div>
-		
-
-
-<!-- Modal -->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">A food recipes</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/recipes.jpg">
-        This repository contains recipes for some foods I like.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Hello World</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/hello-world.jpg">
-        This is my very first webpage!For my Front-End Nanodegree
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Resume</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/resume.png">
-        This was my second project of Udacity,I learned a lot about javascript!
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+	</body>
+</html>

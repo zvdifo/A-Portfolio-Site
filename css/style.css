@@ -1,6 +1,6 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
-	color:747704;
+	color:#111;
 	font-weight:300;
 }
 
@@ -18,18 +18,46 @@ body{
 
 .title-logo{
 	margin-top:20px;
+	padding: 10px 0;
+	margin-right: 0;
+	position: relative;
 }
 
-.logo {
-  color: #F8981C;
-  font-size: 4em;
-  font-weight: 800;
-  letter-spacing: -0.15em;
-  text-shadow: 0.1em .05em 0 black;
-  text-align: center;
-  width: 20%;
-  order: 0;
-  background-color: #BFB4B4;
-  border-radius: 80px;
+
+.featured-work {
+		margin: 0 auto 0 auto;
+	}
+
+	
+@media screen and (max-width: 480px) {
+	.title-logo{
+
+		display: none;
+	}
+
+	
+	.title-super {
+
+		font-size: 28px;
+	}
+
+	.title-lower {
+
+		font-size: 8px;
+	}
+	
+	.text-muted{
+		font-size:20px;
+	}
+	
+	.title-name {
+
+		text-align: center;
+	}
 }
+
+
+
+
+
 
