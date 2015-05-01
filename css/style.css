@@ -1,57 +1,50 @@
-body{
-	font-family: 'Josefin Sans', sans-serif;
-	color:#111;
-	font-weight:300;
+body {
+	font-family: "Josefin Sans", sans-serif;
+	color: #111;
+	font-weight: 300;
 }
 
-.text-muted{
-	color:#BCBBBB
+.text-muted {
+	color: #bcbbbb;
 }
 
-.text-thin{
-	font-weight:100;
+.text-thin {
+	font-weight: 100;
 }
 
-.title-super{
-	font-size:60px;
+.title-super {
+	font-size: 60px;
 }
 
-.title-logo{
-	margin-top:20px;
+.title-logo {
+	margin: 20px 0 0;
 	padding: 10px 0;
-	margin-right: 0;
 	position: relative;
 }
 
-
-.featured-work {
-		margin: 0 auto 0 auto;
-	}
-
+.featured-work  {
+	margin: 0 auto 0 auto;
+}
 	
 @media screen and (max-width: 480px) {
-	.title-logo{
-
+	.title-logo {
 		display: none;
 	}
 
 	
 	.title-super {
-
 		font-size: 28px;
 	}
 
 	.title-lower {
-
 		font-size: 8px;
 	}
 	
-	.text-muted{
-		font-size:20px;
+	.text-muted {
+		font-size: 20px;
 	}
 	
 	.title-name {
-
 		text-align: center;
 	}
 }
